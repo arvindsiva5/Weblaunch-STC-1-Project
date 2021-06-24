@@ -20,6 +20,7 @@ nav {
 nav #sec-links {
     max-width: 100vw;
     display: none;
+    overflow: hidden;
 } 
 nav a {
     color: white;
@@ -27,6 +28,7 @@ nav a {
     text-decoration: none;
     font-size: 4vh;
     display: block;
+    overflow: hidden;
 }
 nav a #hamburger-menu {
     background: black;
@@ -34,6 +36,7 @@ nav a #hamburger-menu {
     position: absolute;
     left: 0;
     top: 0;
+    overflow: hidden;
 }
 nav a:hover {
     background-color: #ddd;
