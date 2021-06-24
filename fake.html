@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            padding: 30vh;
+            background-image: linear-gradient(to right, cornsilk, #3b83f7);
+            color: maroon;
+            font-family: Monospace;
+            font-size: 30px;
+            text-align: center;
+        }
+        button {
+          width: 150px;
+          height: 30px;
+          font-family: Monospace;
+          font-size: 20px;
+          font-weight: strong;
+          border: none;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          color: gold;
+          background: darkblue;
+          padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="animated rotateIn slower delay-5s">Welcome to the fake page</h1>
+    <button>Back To Home</button>
+    <script>
+      let button = document.querySelector('button');
+      let backHome = () => {
+        location.replace('./index.html');
+      };
+      button.onclick = backHome;
+    </script>
+</body>
+</html>
