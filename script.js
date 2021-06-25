@@ -18,4 +18,11 @@ $(document).ready(function(){
     $('main > h1').addClass('animated bounce delay-3s');
     $('main > h2').text('Welcome to my portfolio');
     $('main > h2').addClass('animated bounce delay-5s');
+    $('#objectives').text('Objectives');
+    $('#objectives-sec').text('Seeking a job in computer science where I can use my skills.');
+    $('#education').text('Education');
+    $('#extracurricular').text('Extracurricular activities');
+    $('#skills').text('Skills');
+    $('#languages').text('Languages');
+    $('#contact').text('Contact');
 });
