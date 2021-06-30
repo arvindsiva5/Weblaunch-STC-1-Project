@@ -38,6 +38,7 @@ nav a #hamburger-menu {
     left: 0;
     top: 0;
     overflow: hidden;
+    font-size: 5vh;
 }
 nav a:hover {
     background-color: #ddd;
